@@ -64,12 +64,15 @@ a{
 }
 
 
-td, th{
+td{
   text-align: center;
-  border-top: 2px solid #000000;
-  padding: 10px 10px;
 }
 
+tbody tr th, td{
+  border-top: 2px solid #000000;
+  padding: 10px 10px;
+
+}
 
 .colhead{
   color: #FFFFFF;
